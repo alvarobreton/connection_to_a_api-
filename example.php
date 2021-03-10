@@ -2,13 +2,13 @@
 $url 		= "[URL]";
 		
 $data = [
-  'name' 			  => 	'ANDRES MANUEL',
+  'name' 		=> 	'ANDRES MANUEL',
   'paternal' 		=>	'LOPEZ',
   'maternal' 		=> 	'OBRADOR',
   'birthdate'		=> 	'1940-05-05',
-  'curp' 			  => 	'LOAP400505MH3',
-  'rfc'			    =>	'LOAP400505MH3',
-  'person_type'	=>	1
+  'curp' 		=> 	'LOAP400505MH3',
+  'rfc'			=>	'LOAP400505MH3',
+  'person_type'		=>	1
 ];
 
 $curl = curl_init();
